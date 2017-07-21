@@ -1,0 +1,25 @@
+{
+  "name": "talie-smith",
+  "version": "1.0.0",
+  "description": "Talie Smith's photography website.",
+  "main": "./back-end/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethDS/talie-smith.git"
+  },
+  "keywords": [
+    "Talie",
+    "Smith",
+    "Photography",
+    "Photagrapher"
+  ],
+  "author": "Seth Sutherland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SethDS/talie-smith/issues"
+  },
+  "homepage": "https://github.com/SethDS/talie-smith#readme"
+}
