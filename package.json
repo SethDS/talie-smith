@@ -4,9 +4,6 @@
   "description": "Talie Smith's photography website.",
   "main": "./back-end/server.js",
   "scripts": {
-    "build": "babel ./front-end/src -d ./front-end/dist"
-  },
-  "scripts": {
     "build": "babel --presets es2015 ./front-end/src -d ./front-end/dist"
   },
   "repository": {
@@ -26,7 +23,10 @@
   },
   "homepage": "https://github.com/SethDS/talie-smith#readme",
   "devDependencies": {
-    "babel": "^6.23.0"
+    "babel": "^6.23.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.2"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
