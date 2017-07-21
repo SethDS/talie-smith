@@ -4,7 +4,10 @@
   "description": "Talie Smith's photography website.",
   "main": "./back-end/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel ./front-end/src -d ./front-end/dist"
+  },
+  "scripts": {
+    "build": "babel --presets es2015 ./front-end/src -d ./front-end/dist"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/SethDS/talie-smith/issues"
   },
-  "homepage": "https://github.com/SethDS/talie-smith#readme"
+  "homepage": "https://github.com/SethDS/talie-smith#readme",
+  "devDependencies": {
+    "babel": "^6.23.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
